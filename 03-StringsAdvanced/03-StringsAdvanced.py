@@ -123,6 +123,104 @@ my_string_2[2:4:2] ##2 başla 4 dur 2şer atla
 my_string_2[::-1] ##tersine çevirmiş oluyoruz
 
 
+# ##String Methods
+
+# In[9]:
+
+
+my_name = "mert"
+
+
+# In[15]:
+
+
+my_name_capitalized=my_name.capitalize()
+
+
+# In[13]:
+
+
+my_name
+
+
+# In[17]:
+
+
+my_name_capitalized
+
+
+# In[19]:
+
+
+my_name = "Mert ALTUNTAŞ"
+
+
+# In[21]:
+
+
+my_name.split()
+
+
+# In[25]:
+
+
+my_name_split=my_name.split()
+
+
+# In[27]:
+
+
+my_name_split
+
+
+# In[29]:
+
+
+my_number = 123
+
+
+# In[31]:
+
+
+my_name.upper()
+
+
+# In[35]:
+
+
+"mert" *10 ##python buna izin veriyor ama float değerlere izin vermiyor o kadar da değil diyor :D 
+
+
+# In[37]:
+
+
+"mert" + "5"
+
+
+# In[39]:
+
+
+my_name = "Mert"
+
+
+# In[41]:
+
+
+my_surname="ALTUNTAS"
+
+
+# In[47]:
+
+
+my_full_name=my_name+" "+ my_surname
+
+
+# In[49]:
+
+
+my_full_name
+
+
 # In[ ]:
 
 
